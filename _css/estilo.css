@@ -1,6 +1,6 @@
 /* Formatação texto*/
 div#interface {
-	width: 1100px;
+	width: 80%;
 	height: auto;
 	margin: auto;
 	padding: 5px;
@@ -20,7 +20,7 @@ p {
 
 div#text {
   width: 400px;
-  margin-left: 60%;
+  margin-left: 50%;
   padding: 0px;
   background-color: #dcf1f2;
 }
@@ -31,6 +31,7 @@ li.tw {
 	height: 400px;
 	margin-left: 10%;
 }
+
 
 /* Grid */
 
@@ -146,20 +147,19 @@ ul#album {
 /* Rodapé */
 
 footer {
-	width: 1100px;
-	padding: 5px;
-	margin:center;
-	margin-left: 2.5%;
+	width: 80.5%;
+	padding-left: 10%;
 	position: absolute;
-	text-align: center;
+	text-align: justify;
 }
 
 .coluna {
     float: left;
     text-align: center;
+    height: 300px;
     width: 21%;
-    margin: 12px;
-    padding: 11px;
+    margin: 0px;
+    padding: 15px;
     font-family: arial;
     position: relative;
 }
