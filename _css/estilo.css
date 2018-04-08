@@ -1,0 +1,177 @@
+/* Formatação texto*/
+div#interface {
+	width: 1100px;
+	height: auto;
+	margin: auto;
+	padding: 5px;
+	border: 3px solid white;
+    background-color: white;
+    box-shadow:2px 2px 8px rgba(0,0,0,.4);
+	
+}
+body#fundo {
+	background-color: #abe6e8;
+}
+p {
+	text-align: justify; 
+	text-indent:10px;
+	font-size: 15px;
+}
+
+div#text {
+  width: 400px;
+  margin-left: 60%;
+  padding: 0px;
+  background-color: #dcf1f2;
+}
+
+li.tw {
+	float: left;
+	width: 400px;
+	height: 400px;
+	margin-left: 10%;
+}
+
+/* Grid */
+
+ul#album  {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul#album li {
+	float: left;
+	width: 220px;
+	height: 220px;
+	margin: 30px;
+	border:5px solid white;
+	background-color: white;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+	-webkit-transition: all .4s ease-in;
+}
+
+ul#album li span {
+	opacity: 0;
+	color:#ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,0.1);
+	font-size: 9pt;
+	line-height: 390px;
+	padding: 3px;
+}
+
+ul#album li:hover{
+	-webkit-transform: scale(1.5);
+}
+
+ul#album li:hover span {
+     opacity: 1;
+ }
+
+ul#album li#foto1 {
+	background: url('../_img/sign-up.png') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 300px;
+	background-color: #ffffff;
+}
+
+ul#album li#foto1:hover {
+	background-position: 0px 0px;
+	background-size: 210px 210px;
+}
+
+ul#album li#foto2 {
+	background: url('../_img/search.png') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 300px;
+	background-color: #ffffff;
+}
+ul#album li#foto2:hover {
+	background-position: 0px 0px;
+	background-size: 210px 210px;
+}
+
+ul#album li#foto3 {
+	background: url('../_img/princing.png') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 300px;
+	background-color: #ffffff;
+}
+ul#album li#foto3:hover {
+	background-position: 0px 0px;
+	background-size: 210px 210px;
+}
+
+ul#album li#foto4 {
+	background: url('../_img/contact.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 300px;
+	background-color: #ffffff;
+}
+ul#album li#foto4:hover {
+	background-position: 0px 0px;
+	background-size: 210px 210px;
+}
+
+ul#album li#foto5 {
+	background: url('../_img/weather.png') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 300px;
+	background-color: #ffffff;
+}
+ul#album li#foto5:hover {
+	background-position: 0px 0px;
+	background-size: 210px 210px;
+}
+
+ul#album li#foto6 {
+	background: url('../_img/form.png') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 300px;
+	background-color: #ffffff;
+}
+ul#album li#foto6:hover {
+	background-position: 0px 0px;
+	background-size: 210px 210px;
+}
+
+ul#album {
+	border-bottom: 1px #606060 solid;
+}
+
+
+/* Rodapé */
+
+footer {
+	width: 1100px;
+	padding: 5px;
+	margin:center;
+	margin-left: 2.5%;
+	position: absolute;
+	text-align: center;
+}
+
+.coluna {
+    float: left;
+    text-align: center;
+    width: 21%;
+    margin: 12px;
+    padding: 11px;
+    font-family: arial;
+    position: relative;
+}
+
+h4 {
+	background: #C3D7E9;
+}
+
+
+
+/* Formatando atividades*/
+
+div#card {
+	float: left;
+}
