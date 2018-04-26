@@ -1,0 +1,54 @@
+img {
+  border-radius: 40px;
+  width: 70px;
+  height: 70px;
+}
+header {
+  height: 110px;
+  padding: 20px;
+  background-color: #e3f523;
+}
+
+nav {
+  height: 60px;
+  padding: 10px;
+  background-color: #d3d5b6;
+  text-align: center;
+}
+
+aside {
+  padding: 2%;
+  height: 487px;
+  width: 30%;
+  background-color: #4b5cdd;
+  float: left;
+}
+
+#caixa{
+  height: 337px;
+  width: 70%;
+  padding: 2%;
+  background-color: #1a2897;
+  float: right;
+}
+
+#principal{
+  height: 150px;
+  width: 70%;
+  padding: 2%;
+  background-color: #f43c3c;
+  float: right;
+}
+
+footer {
+  height: 100px;
+  padding: 10px;
+  background-color: #17cd57;
+  clear: both;
+}
+
+.l {
+  color: #000000;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
